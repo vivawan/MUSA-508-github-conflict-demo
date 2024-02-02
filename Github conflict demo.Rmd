@@ -40,7 +40,7 @@ parks <- st_read("https://opendata.arcgis.com/datasets/d52445160ab14380a673e5849
 ## Preview data
 Let's preview our data. Using mapview::mapview(), we can quickly check what the data looks like. This is useful for when you are manipulating spatial data and need to check if things look right at each step.
 ```{r preview data}
-mapview(parks, col.regions = "black", map.types = "CartoDB.DarkMatter")
+mapview(parks, col.regions = "white", map.types = "CartoDB.DarkMatter")
 ```
 ## Map the data
 Finally, let's map using ggplot2. Add your name as a subtitle in the labs() function. Also feel free to change the colors and other aesthetics. Once you're satisfied, save and commit. 
